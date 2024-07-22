@@ -1,16 +1,23 @@
-# Space Invador and Breakout Pygame
-## _Repo นี้เป็นส่วนหนึ่งของวิชาเลือก ai and robotics ชั้นปีที่สี่ ปี 67_
+# Churn Modeling Project
 
-อ้างอิง Source Code
+This project aims to predict customer churn using a decision tree classifier. The dataset used is the Churn Modeling dataset.
 
-- space invador: https://github.com/clear-code-projects/Space-invaders.git
-- breakout: https://www.youtube.com/watch?v=NIfkaOF3Hjs
+## Project Structure
 
-## members
+- `Churn Modeling.csv`: The dataset file.
+- `main.py`: The main Python script that processes the data and builds the model.
+- `README.md`: This readme file.
 
-- นนร.จิตวุฒิ มะศักดิ์ ตอน วท.1
-- นนร.ไชยบุตร เพิ่มสุขศรี ตอน วฟ.
-- นนร.ณัชนนท์ อินทรสูตร ตอน ซบ.
+## Installation
 
+To run this project, you'll need to have Python installed along with the following libraries:
 
+- pandas
+- seaborn
+- matplotlib
+- scikit-learn
 
+You can install the required libraries using the following command:
+
+```bash
+pip install pandas seaborn matplotlib scikit-learn
